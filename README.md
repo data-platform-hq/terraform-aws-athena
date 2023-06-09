@@ -4,8 +4,8 @@ Terraform module for AWS Athena resources creation
 ## Usage
 
 ```hcl
-module "cognito_identity_pool" {
-  source  = "data-platform-hq/cognito-identity-pool/aws"
+module "athena" {
+  source  = "data-platform-hq/athena/aws"
   version = "~> 1.0"
   
   tags = {
